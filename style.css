@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root{
+    --clr-dark:#070a13;
+    --clr-light:#f1f5f9;
+}
+
+body{
+    background-color: var(--clr-light);
+    color:var(--clr-dark);
+    width:95%;
+}
+.dark-mode{
+    --clr-light:#070a13;
+    --clr-dark:#f1f5f9;
+}
